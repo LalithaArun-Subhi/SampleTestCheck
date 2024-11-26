@@ -1,0 +1,9 @@
+com\product\store\controller\ProductController.class
+com\product\store\controller\UserController.class
+com\product\store\service\UserService.class
+com\product\store\repository\AddProduct.class
+com\product\store\repository\UserRepository.class
+com\product\store\dao\ProductDetails.class
+com\product\store\service\AddProductDetails.class
+com\product\store\StoreApplication.class
+com\product\store\dao\UserDetails.class

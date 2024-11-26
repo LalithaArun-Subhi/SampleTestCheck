@@ -1,0 +1,26 @@
+2024-11-22T15:35:41.292+05:30  INFO 17352 --- [store] [main] com.product.store.StoreApplication       : Starting StoreApplication using Java 17.0.11 with PID 17352 (C:\Users\LALITK\store\store\target\classes started by lalitk in C:\Users\LALITK\store\store)
+2024-11-22T15:35:41.308+05:30  INFO 17352 --- [store] [main] com.product.store.StoreApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-11-22T15:35:43.666+05:30  INFO 17352 --- [store] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-22T15:35:43.908+05:30  INFO 17352 --- [store] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 136 ms. Found 2 JPA repository interfaces.
+2024-11-22T15:35:47.311+05:30  INFO 17352 --- [store] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-11-22T15:35:47.357+05:30  INFO 17352 --- [store] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-22T15:35:47.357+05:30  INFO 17352 --- [store] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-11-22T15:35:47.607+05:30  INFO 17352 --- [store] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-22T15:35:47.608+05:30  INFO 17352 --- [store] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 6221 ms
+2024-11-22T15:35:48.181+05:30  INFO 17352 --- [store] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-22T15:35:48.486+05:30  INFO 17352 --- [store] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-11-22T15:35:48.969+05:30  INFO 17352 --- [store] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-11-22T15:35:49.858+05:30  INFO 17352 --- [store] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-22T15:35:49.932+05:30  INFO 17352 --- [store] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-11-22T15:35:50.276+05:30  INFO 17352 --- [store] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1ffd0114
+2024-11-22T15:35:50.280+05:30  INFO 17352 --- [store] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-11-22T15:35:50.435+05:30  WARN 17352 --- [store] [main] org.hibernate.dialect.Dialect            : HHH000511: The 5.5.5 version for [org.hibernate.dialect.MariaDBDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 10.4.0. Check the community dialects project for available legacy versions.
+2024-11-22T15:35:50.443+05:30  WARN 17352 --- [store] [main] org.hibernate.orm.deprecation            : HHH90000025: MariaDBDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-11-22T15:35:52.141+05:30  INFO 17352 --- [store] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-22T15:35:52.281+05:30  INFO 17352 --- [store] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-22T15:35:53.712+05:30  INFO 17352 --- [store] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-11-22T15:35:56.036+05:30  WARN 17352 --- [store] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-22T15:35:57.435+05:30  INFO 17352 --- [store] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-11-22T15:35:57.446+05:30  INFO 17352 --- [store] [main] com.product.store.StoreApplication       : Started StoreApplication in 17.744 seconds (process running for 18.599)
+2024-11-22T17:34:25.901+05:30  WARN 17352 --- [store] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h35m35s200ms743µs800ns).
+2024-11-22T19:02:19.083+05:30  WARN 17352 --- [store] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h22m53s111ms462µs).
